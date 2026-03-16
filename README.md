@@ -1,12 +1,13 @@
 # Data Structures & Algorithms (C / C++)
 
-A structured repository documenting my journey of learning **Data Structures and Algorithms** through the course **"Mastering Data Structures & Algorithms using C and C++" by Abdul Bari**.
+A structured repository documenting my journey of learning **Data Structures and Algorithms** through the course
+**"Mastering Data Structures & Algorithms using C and C++" by Abdul Bari**.
 
 This repository contains implementations, experiments, and practice programs written while studying each topic from the course.
 
 ---
 
-## 📚 Course Reference
+# 📚 Course Reference
 
 Course: **Mastering Data Structures & Algorithms using C and C++**
 Instructor: Abdul Bari
@@ -14,98 +15,111 @@ Platform: Udemy
 
 The course focuses on:
 
-* Deep understanding of Data Structures
-* Algorithm analysis
-* Recursive thinking
-* Implementation of structures using C/C++
-* Problem-solving approaches
+* Understanding **core data structures**
+* Implementing structures **from scratch**
+* Learning **algorithm analysis**
+* Developing **recursive thinking**
+* Building **problem solving skills**
 
 ---
 
-## 🎯 Goals of this Repository
+# 🎯 Goals of this Repository
 
 * Document my **DSA learning journey**
-* Build strong **problem solving skills**
-* Implement **core data structures from scratch**
-* Practice **algorithm analysis and optimization**
-* Prepare for **technical interviews and competitive programming**
+* Strengthen **problem solving and analytical thinking**
+* Implement **data structures from scratch**
+* Understand **algorithm complexity**
+* Build strong foundations for **technical interviews**
 
 ---
 
-## 🧠 Topics Covered
+# 🧠 Topics Covered
 
-### 1. Programming Basics
+## 1️⃣ Programming Basics
 
 * Arrays
 * Structures
 * Pointers
 * References
 * Functions
-* Parameter passing methods
-* C++ classes
+* Parameter Passing
+* C++ Classes
 * Templates
-* Object Oriented Programming concepts
+* Modular Programming
+* Object Oriented Concepts
 
 ---
 
-### 2. DSA Fundamentals
+## 2️⃣ DSA Fundamentals
 
-* Stack vs Heap memory
+* Stack vs Heap Memory
 * Physical vs Logical Data Structures
 * Abstract Data Types (ADT)
 * Time Complexity
 * Space Complexity
-* Operation counting
-* Logarithmic complexity
-* Performance analysis
+* Operation Counting
+* Algorithm Efficiency
 
 ---
 
-### 3. Recursion
+## 3️⃣ Recursion
 
-* Recursion basics
-* How recursion uses stack
-* Function call stack
-* Recursive tracing
-* Recursive problem solving
-
-(Currently studying)
+* Recursion Basics
+* Function Call Stack
+* Tail Recursion
+* Head Recursion
+* Tree Recursion
+* Indirect Recursion
+* Nested Recursion
+* Classic Recursive Problems
 
 ---
 
-## 📂 Repository Structure
+## 4️⃣ Arrays (Current Section)
+
+* Array Representation
+* Static vs Dynamic Arrays
+* Array Memory Layout
+* Row Major and Column Major Mapping
+* Multidimensional Arrays
+
+---
+
+# 📂 Repository Structure
 
 ```
-Data Structures & Algorithms/
+Data Structures & Algorithms
 │
-├── 01_BASICS/
+├── 01_BASICS
 │   ├── arrays
 │   ├── structures
 │   ├── pointers
 │   ├── references
 │   ├── functions
 │   ├── parameter passing
-│   ├── structures with functions
-│   ├── C++ classes
-│   └── templates
+│   ├── classes and templates
 │
-├── 02_DSA_FUNDAMENTALS/
+├── 02_DSA_FUNDAMENTALS
 │   ├── stack vs heap
-│   ├── ADT concepts
+│   ├── ADT
 │   ├── time complexity
 │   ├── space complexity
-│   └── algorithm analysis examples
+│   └── algorithm analysis
 │
-├── 03_RECURSION/
+├── 03_RECURSION
 │   ├── recursion basics
-│   └── recursion stack behaviour
+│   ├── recursion types
+│   ├── recursion mathematical problems
+│   ├── classic recursive problems
+|
+└── (Upcoming Sections)
 ```
 
-Each file contains **well-commented implementations** demonstrating the concept explained in the lecture.
+Each folder contains **well commented C++ implementations** demonstrating the concepts discussed in the lecture.
 
 ---
 
-## 🛠️ Languages Used
+# 🛠️ Languages Used
 
 * **C**
 * **C++**
@@ -117,51 +131,52 @@ Compiled using:
 
 ---
 
-## 📈 Learning Progress
+# 📈 Learning Progress
 
-* [x] Programming Basics
-* [x] DSA Fundamentals
-* [x] Recursion (in progress)
-* [ ] Arrays Representation
-* [ ] Array ADT
-* [ ] Linked Lists
-* [ ] Stack
-* [ ] Queue
-* [ ] Trees
-* [ ] Binary Search Trees
-* [ ] AVL Trees
-* [ ] Graphs
-* [ ] Hashing
-* [ ] Sorting Algorithms
-* [ ] Dynamic Programming
-* [ ] Greedy Algorithms
-* [ ] Backtracking
+```
+✔ Programming Basics
+✔ DSA Fundamentals
+✔ Recursion
+⏳ Arrays Representation (current)
+⬜ Array ADT
+⬜ Linked Lists
+⬜ Stack
+⬜ Queue
+⬜ Trees
+⬜ Binary Search Trees
+⬜ AVL Trees
+⬜ Graphs
+⬜ Hashing
+⬜ Sorting Algorithms
+⬜ Dynamic Programming
+⬜ Greedy Algorithms
+⬜ Backtracking
+```
 
 ---
 
-## 📌 Why This Repository Exists
+# 📌 Purpose of this Repository
 
-Learning Data Structures is not about memorizing code — it is about **understanding how data is organized and how algorithms operate on it efficiently**.
+Data Structures are not about memorizing code.
+They are about **understanding how data is organized and how algorithms operate efficiently on that data**.
 
 This repository serves as:
 
-* A personal learning archive
-* A revision reference
-* A way to share implementations with other learners
+* A **learning archive**
+* A **revision reference**
+* A **practice implementation library**
 
 ---
 
-## 🚀 Future Additions
+# 🚀 Future Additions
 
-* LeetCode problem solutions
-* Graph algorithms
-* Dynamic Programming problems
+* LeetCode solutions
 * Competitive programming practice
+* Advanced graph algorithms
+* Dynamic programming problems
 
 ---
 
-## 📬 Connect With Me
+# ⭐ If You Find This Repository Useful
 
-If you're also learning Data Structures and Algorithms, feel free to explore the repository and learn along!
-
-⭐ Star the repo if you find it helpful.
+Consider **starring the repository** to support the learning journey.
