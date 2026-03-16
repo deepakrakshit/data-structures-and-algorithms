@@ -1,5 +1,9 @@
 # Data Structures & Algorithms (C / C++)
 
+![Language](https://img.shields.io/badge/language-C%20%2F%20C++-blue)
+![Status](https://img.shields.io/badge/status-learning%20DSA-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 A structured repository documenting my journey of learning **Data Structures and Algorithms** through the course
 **"Mastering Data Structures & Algorithms using C and C++" by Abdul Bari**.
 
