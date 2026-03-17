@@ -33,6 +33,8 @@ int main()
     // (C style) dynamic allocation:
     // int *p = (int *)malloc(5 * sizeof(int));
 
+    // and for c include the header file <stdlib.h>
+
     // assigning values
     for (int i = 0; i < 5; i++)
     {
