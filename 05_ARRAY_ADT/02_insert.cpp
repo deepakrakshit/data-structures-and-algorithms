@@ -2,22 +2,43 @@
 using namespace std;
 
 int main() {
-    int arr[100] = {1, 2, 3, 4, 5};
-    int n = 5;  // current size
 
-    int pos = 2;   // index where you want to insert
-    int val = 99;  // value to insert
+    int length, size;
+    cout << "Enter Length and size of the array: " << endl;
+    cin >> length >> size;
 
-    // shift elements to right
-    for (int i = n; i > pos; i--) {
-        arr[i] = arr[i - 1];
+    int arr[length];
+
+    cout << "Enter the elements: " << endl;
+    for (int i = 0; i < size; i++) {
+        cin >> arr[i];
     }
 
-    arr[pos] = val;
-    n++;
+    if(size >= length){
+        cout << "Array is full, cannot insert!";
+        return 0;
+    }
 
-    // print array
-    for (int i = 0; i < n; i++) {
+    int index, value;
+    cout << "Enter Index and value of the element you wish to insert: " << endl;
+    cin >> index >> value;
+
+    if(index >= 0 && index <= size){
+        for (int i = size; i > index; i--) {
+            arr[i] = arr[i - 1];
+        }
+
+        arr[index] = value;
+        size++;
+    } else {
+        cout << "Invalid index!";
+        return 0;
+    }
+
+    cout << "Updated array: ";
+    for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
+
+    return 0;
 }
