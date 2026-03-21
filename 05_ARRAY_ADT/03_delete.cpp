@@ -2,20 +2,39 @@
 using namespace std;
 
 int main() {
-    int arr[100] = {1, 2, 3, 4, 5};
-    int n = 5;  // current size
 
-    int pos = 2;  // index to delete
+    int length, size;
+    cout << "Enter Length and size of the array: " << endl;
+    cin >> length >> size;
+
+    int arr[length];
+
+    cout << "Enter the elements: " << endl;
+    for (int i = 0; i < size; i++) {
+        cin >> arr[i];
+    }
+
+    int index;
+    cout << "Enter index to delete: ";
+    cin >> index;
+
+    if(index < 0 || index >= size){
+        cout << "Invalid index!";
+        return 0;
+    }
 
     // shift elements to left
-    for (int i = pos; i < n - 1; i++) {
+    for (int i = index; i < size - 1; i++) {
         arr[i] = arr[i + 1];
     }
 
-    n--;
+    size--;
 
     // print array
-    for (int i = 0; i < n; i++) {
+    cout << "Updated array: ";
+    for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
+
+    return 0;
 }
