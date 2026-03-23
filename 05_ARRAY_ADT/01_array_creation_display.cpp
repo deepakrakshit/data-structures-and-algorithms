@@ -1,42 +1,43 @@
 #include <iostream>
 using namespace std;
 
-class Array
-{
+class Array {
 private:
-    int *A;
-    int size;
+    int *A;     // pointer to store array
+    int size;   // size of array
 
 public:
-    Array(int size){
-        this->size = size;
+    // Constructor → allocate memory
+    Array(int s) {
+        size = s;
         A = new int[size];
     }
 
-    void create(){
-        cout << "Enter the array elements: " << endl;
-        for (int i = 0; i < size; i++){
-            cout << "Array element " << i << ": ";
+    // Take input from user
+    void create() {
+        cout << "Enter elements:\n";
+        for (int i = 0; i < size; i++) {
             cin >> A[i];
         }
     }
 
-    void display(){
-        cout << "Array elements: ";
-        for (int i = 0; i < size; i++){
+    // Print array elements
+    void display() {
+        cout << "Array: ";
+        for (int i = 0; i < size; i++) {
             cout << A[i] << " ";
         }
         cout << endl;
     }
 
-    ~Array(){
+    // Destructor → free memory
+    ~Array() {
         delete[] A;
-        cout << "Array destroyed" << endl;
     }
 };
 
-int main(){
-    Array arr(5);
-    arr.create();
-    arr.display();
+int main() {
+    Array arr(5);  // create array of size 5
+    arr.create();  // input values
+    arr.display(); // output values
 }
