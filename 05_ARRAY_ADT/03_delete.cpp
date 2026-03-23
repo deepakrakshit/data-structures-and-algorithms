@@ -2,14 +2,16 @@
 using namespace std;
 
 int main() {
-
     int length, size;
-    cout << "Enter Length and size of the array: " << endl;
+
+    // length = total capacity, size = current elements
+    cout << "Enter capacity and current size: ";
     cin >> length >> size;
 
-    int arr[length];
+    int arr[100]; // fixed size (safer than variable length array)
 
-    cout << "Enter the elements: " << endl;
+    // input elements
+    cout << "Enter elements:\n";
     for (int i = 0; i < size; i++) {
         cin >> arr[i];
     }
@@ -18,7 +20,8 @@ int main() {
     cout << "Enter index to delete: ";
     cin >> index;
 
-    if(index < 0 || index >= size){
+    // check valid index
+    if (index < 0 || index >= size) {
         cout << "Invalid index!";
         return 0;
     }
@@ -28,9 +31,9 @@ int main() {
         arr[i] = arr[i + 1];
     }
 
-    size--;
+    size--; // reduce size after deletion
 
-    // print array
+    // display updated array
     cout << "Updated array: ";
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
